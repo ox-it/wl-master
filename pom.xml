@@ -145,6 +145,15 @@
       </snapshots>
     </repository>
     <repository>
+      <id>oucs-vle</id>
+      <name>Oxford Maven Repo</name>
+      <layout>default</layout>
+            <url>http://archiva.oucs.ox.ac.uk/archiva/repository/internal</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
       <id>default</id>
       <name>Maven Repository Switchboard</name>
       <layout>default</layout>
