@@ -1081,6 +1081,14 @@ This is not needed now that pluto have been released
           </systemProperties>
         </configuration>
       </plugin>
+      <plugin>
+        <inherited>true</inherited>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <configuration>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
