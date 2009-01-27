@@ -119,6 +119,12 @@
       <enabled>true</enabled>
     </releases>
   </pluginRepository>
+  <pluginRepository>
+    <id>oucs-vle</id>
+    <name>OUCS VLE Repository</name>
+    <url>http://archiva.oucs.ox.ac.uk/archiva/repository/internal/</url>
+    <layout>default</layout>
+  </pluginRepository>
 </pluginRepositories>
 <repositories>
     <repository>
