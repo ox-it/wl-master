@@ -116,10 +116,13 @@
       </releases>
     </pluginRepository>
     <pluginRepository>
-      <id>oucs-vle</id>
-      <name>OUCS VLE Repository</name>
-      <url>http://archiva.oucs.ox.ac.uk/archiva/repository/internal/</url>
+      <id>maven-repo.oucs</id>
+      <name>OUCS Maven Repository</name>
       <layout>default</layout>
+      <url>http://maven-repo.oucs.ox.ac.uk/content/repository/releases</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
     </pluginRepository>
   </pluginRepositories>
   <repositories>
@@ -146,15 +149,6 @@
       <name>Sakai Ibiblio Mirror Repo</name>
       <layout>default</layout>
       <url>http://source.sakaiproject.org/maven2-ibiblio</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>oucs-vle</id>
-      <name>Oxford Maven Repo</name>
-      <layout>default</layout>
-            <url>http://archiva.oucs.ox.ac.uk/archiva/repository/internal</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
