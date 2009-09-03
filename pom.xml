@@ -119,7 +119,7 @@
       <id>maven-repo.oucs</id>
       <name>OUCS Maven Repository</name>
       <layout>default</layout>
-      <url>http://maven-repo.oucs.ox.ac.uk/content/repository/releases</url>
+      <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/releases</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
