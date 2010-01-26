@@ -172,6 +172,18 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>maven-repo.oucs(snapshots)</id>
+      <name>OUCS Maven Repository(Snapshots)</name>
+      <layout>default</layout>
+      <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/snapshots</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
   </repositories>
   <dependencyManagement>
     <dependencies>
