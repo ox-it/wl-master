@@ -69,7 +69,7 @@
     <sakai.spring.version>2.0.6</sakai.spring.version>
     <sakai.spring.mock.artifactId>spring-mock</sakai.spring.mock.artifactId>
     <sakai.spring.mock.version>2.0.6</sakai.spring.mock.version>
-    <sakai.commons.lang.version>2.1</sakai.commons.lang.version>
+    <sakai.commons.lang.version>2.4</sakai.commons.lang.version>
     <sakai.commons.fileupload.version>1.1.1</sakai.commons.fileupload.version>
     <sakai.tomcat.version>tomcat-5.5.26</sakai.tomcat.version>
     <sakai.hibernate.groupId>org.hibernate</sakai.hibernate.groupId>
