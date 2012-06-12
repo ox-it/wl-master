@@ -106,7 +106,8 @@
 		<sakai.msgcntr.version>2.8.2ox1-SNAPSHOT</sakai.msgcntr.version>
 		<sakai.polls.version>1.4.3ox1-SNAPSHOT</sakai.polls.version>
 		<sakai.profile.version>2.8.2</sakai.profile.version>
-		<sakai.profile2.version>1.4.8</sakai.profile2.version>
+		<!-- Profile 2 is for photo imports. WL-2112 -->
+		<sakai.profile2.version>1.4.10ox1-SNAPSHOT</sakai.profile2.version>
 		<sakai.resetpass.version>2.8.6ox1-SNAPSHOT</sakai.resetpass.version>
 		<sakai.sakai-mock.version>2.8.2</sakai.sakai-mock.version>
 		<sakai.samigo.version>2.8.2</sakai.samigo.version>
