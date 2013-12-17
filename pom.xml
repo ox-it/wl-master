@@ -117,6 +117,10 @@
 		<sakai.shortenedurl.version>1.0.4ox1-SNAPSHOT</sakai.shortenedurl.version>
 		<sakai.sitestats.version>2.2.1</sakai.sitestats.version>
         <sakai.webservices.version>1.0.2</sakai.webservices.version>
+        <!-- Etudes modules that are versioned separately -->
+        <etudes.util.version>1.0.20</etudes.util.version>
+        <ambrosia.version>2.1.20</ambrosia.version>
+        <mneme.version>2.1.21</mneme.version>
         <!-- Set the source encoding to avoid maven warnings -->
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
     </properties>
@@ -733,6 +737,35 @@
                 <groupId>geronimo-spec</groupId>
                 <artifactId>geronimo-spec-jms</artifactId>
                 <version>1.1-rc4</version>
+            </dependency>
+            <!-- Etudes dependencies -->
+            <dependency>
+                <groupId>org.etudes</groupId>
+                <artifactId>etudes-util-api</artifactId>
+                <version>${etudes.util.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.etudes</groupId>
+                <artifactId>etudes-util-util</artifactId>
+                <version>${etudes.util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.etudes</groupId>
+                <artifactId>etudes-ambrosia-api</artifactId>
+                <version>${ambrosia.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.etudes</groupId>
+                <artifactId>etudes-ambrosia-util</artifactId>
+                <version>${ambrosia.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.etudes</groupId>
+                <artifactId>etudes-mneme-api</artifactId>
+                <version>${mneme.version}</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
    </dependencyManagement>
