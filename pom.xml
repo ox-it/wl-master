@@ -115,6 +115,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sakai.jdk.version>1.6</sakai.jdk.version>
     <sakai.build.directory>target</sakai.build.directory>
+
+    <!-- Mneme -->
+    <etudes.util.version>1.0.22</etudes.util.version>
+    <ambrosia.version>2.1.27</ambrosia.version>
+    <mneme.version>2.1.29</mneme.version>
   </properties>
 
   <profiles>
@@ -1262,6 +1267,41 @@
         <version>${sakai.lombok.version}</version>
         <scope>provided</scope><!-- Lombok only needed at build time -->
       </dependency>
+
+      <!-- Mneme -->
+      <dependency>
+        <groupId>org.etudes</groupId>
+        <artifactId>etudes-util-api</artifactId>
+        <version>${etudes.util.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.etudes</groupId>
+        <artifactId>etudes-util-util</artifactId>
+        <version>${etudes.util.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.etudes</groupId>
+        <artifactId>etudes-ambrosia-api</artifactId>
+        <version>${ambrosia.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.etudes</groupId>
+        <artifactId>etudes-ambrosia-util</artifactId>
+        <version>${ambrosia.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.etudes</groupId>
+        <artifactId>etudes-mneme-api</artifactId>
+        <version>${mneme.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
