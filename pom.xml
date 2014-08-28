@@ -959,6 +959,11 @@
         <version>${sakai.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.sakaiproject.portal</groupId>
+        <artifactId>sakai-portal-impl</artifactId>
+        <version>${sakai.version}</version>
+      </dependency>
+      <dependency>
         <groupId>org.sakaiproject</groupId>
         <artifactId>sakai-fck-connector</artifactId>
         <version>${sakai.version}</version>
