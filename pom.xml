@@ -198,7 +198,7 @@
         <id>maven-repo.oucs</id>
         <name>OUCS Maven Repository</name>
         <layout>default</layout>
-        <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/releases</url>
+        <url>https://maven-repo.oucs.ox.ac.uk/content/repositories/releases</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
@@ -237,7 +237,7 @@
         <id>maven-repo.oucs</id>
         <name>OUCS Maven Repository</name>
         <layout>default</layout>
-        <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/releases</url>
+        <url>https://maven-repo.oucs.ox.ac.uk/content/repositories/releases</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
@@ -246,7 +246,7 @@
         <id>maven-repo-snapshots.oucs</id>
         <name>OUCS Snapshot Maven Repository</name>
         <layout>default</layout>
-        <url>http://maven-repo.oucs.ox.ac.uk/content/repositories/snapshots</url>
+        <url>https://maven-repo.oucs.ox.ac.uk/content/repositories/snapshots</url>
         <snapshots>
             <enabled>true</enabled>
         </snapshots>
